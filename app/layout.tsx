@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 export default function DashboardLayout({
   children,
 }: {
@@ -5,8 +6,10 @@ export default function DashboardLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <main>{children}</main>
+      <body className="min-h-full flex flex-col">
+        <Navbar />
+        <main>
+          {children}</main>
       </body>
     </html>
   )
