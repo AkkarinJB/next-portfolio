@@ -1,4 +1,11 @@
 
+export const PersonalInfo = {
+  fullName: "Aekkarin Jujaibun",
+  position: "Full Stack Developer",
+  email: "akkarinjujaiboon11087@gmail.com",
+  phone : "+66-61-126-0390",
+}
+
 export const links = [
   {
     name: "Home",
